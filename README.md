@@ -92,8 +92,8 @@ python evaluate.py
 ---
 
 ## 👥 Team
-*   **[Your Name / Team Name]** - *Lead Engineer & Researcher*
-*   *Scientific ML Challenge - Track 1 Submission*
+*   **[Saurav]** - *Lead Engineer & Researcher*
+*   *Scientific ML Challenge @ Vizuara Ai Labs*
 
 ---
-> *Built with ❤️ and JAX.*
+
