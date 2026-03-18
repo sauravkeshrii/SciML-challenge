@@ -1,0 +1,1 @@
+"""Gen-SHM: Physics-Informed Generative Surrogate for Drone Wing Structural Integrity"""
