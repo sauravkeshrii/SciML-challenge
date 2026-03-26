@@ -175,7 +175,7 @@ If you use this code in your research, please cite:
 ```
 @article{gen-shm2026,
   title={Gen-SHM: Physics-Informed Generative Surrogate for Drone Wing Structural Integrity},
-  author={Saurav Keshri},
+  author={Saurav},
   year={2026}
 }
 ```
