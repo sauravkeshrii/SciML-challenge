@@ -155,10 +155,9 @@ Provides menu-driven access to all demonstrations
 
 ## 📚 Documentation
 
-- [Client Deployment Guide](README_CLIENT.md) - Complete setup and troubleshooting
-- [Getting Started](GETTING_STARTED.md) - Developer setup guide
-- [Implementation Details](IMPLEMENTATION_SUCCESS.md) - Technical architecture
-- [Jupyter Notebooks](notebooks/) - Interactive tutorials
+- [Client Deployment Guide](https://github.com/sauravkeshrii/SciML-challenge/blob/main/gen-shm/README_CLIENT.md) - Complete setup and troubleshooting
+- [Getting Started](https://github.com/sauravkeshrii/SciML-challenge/blob/main/gen-shm/GETTING_STARTED.md) - Developer setup guide
+- [Implementation Details](https://github.com/sauravkeshrii/SciML-challenge/blob/main/gen-shm/IMPLEMENTATION_SUCCESS.md) - Technical architecture
 
 ## 🤝 Contributing
 
