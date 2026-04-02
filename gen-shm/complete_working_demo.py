@@ -137,8 +137,8 @@ def demonstrate_complete_system():
     
     # Damaged wing (mid-span damage)
     damaged_stiffness = physics.stiffness_field(x_positions, 0.5, 0.3)
-    print(f"   🟠 Mid-span damage (30%): {damaged_stiffness[5].item():.2e} N⋅m²")
-    print(f"   🔵 Damage effect visible: {(healthy_stiffness[5] - damaged_stiffness[5]).item():.2e} N⋅m² reduction")
+    print(f"    Mid-span damage (30%): {damaged_stiffness[5].item():.2e} N⋅m²")
+    print(f"    Damage effect visible: {(healthy_stiffness[5] - damaged_stiffness[5]).item():.2e} N⋅m² reduction")
     
     # Step 4: PINN Model Demonstration
     print_section("PINN GENERATOR DEMONSTRATION")
@@ -154,7 +154,7 @@ def demonstrate_complete_system():
     print(f"   • Device: {device}")
     
     # Demonstrate forward pass
-    print("\n⚡ Testing model forward pass...")
+    print("\n Testing model forward pass...")
     batch_size = 8
     x_input = torch.rand(batch_size, 1).to(device) * 0.8 + 0.1  # 0.1 to 0.9
     t_input = torch.rand(batch_size, 1).to(device) * 2.0         # 0 to 2 seconds
@@ -238,8 +238,8 @@ def demonstrate_complete_system():
     
     print(f"✅ Vibration analysis:")
     print(f"   🟢 Healthy RMS acceleration: {healthy_rms:.4f} m/s²")
-    print(f"   🟠 Damaged RMS acceleration: {damaged_rms:.4f} m/s²")
-    print(f"   🔍 Change due to damage: {((damaged_rms - healthy_rms)/healthy_rms*100):+.2f}%")
+    print(f"      Damaged RMS acceleration: {damaged_rms:.4f} m/s²")
+    print(f"      Change due to damage: {((damaged_rms - healthy_rms)/healthy_rms*100):+.2f}%")
     
     # Show frequency content difference
     from scipy import signal
