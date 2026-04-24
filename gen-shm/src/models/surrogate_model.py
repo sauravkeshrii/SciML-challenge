@@ -51,23 +51,7 @@ class DroneWingSurrogate:
                         num_samples: int = 100,
                         duration: float = 1.0,
                         sampling_rate: int = 1000) -> Dict[str, np.ndarray]:
-        """
-        Generate synthetic vibration samples for a given damage scenario.
-        
-        Args:
-            damage_level: Damage severity (0.0 to 1.0, representing stiffness reduction)
-            damage_location: Damage location along wing (0.0 to 1.0, normalized)
-            num_samples: Number of independent samples to generate
-            duration: Duration of each time series (seconds)
-            sampling_rate: Sampling frequency (Hz)
-            
-        Returns:
-            Dictionary containing:
-            - 'acceleration': Acceleration time series (num_samples, num_sensors, time_steps)
-            - 'time': Time vector
-            - 'sensor_positions': Sensor positions along wing
-            - 'damage_info': Damage scenario information
-        """
+      
         if not self.is_trained:
             raise RuntimeError("Model must be trained before generating samples. "
                              "Call train() method first.")
